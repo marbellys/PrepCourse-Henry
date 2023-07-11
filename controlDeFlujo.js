@@ -10,3 +10,12 @@ function viajar(destino) {
   viajar('Brasil');
   viajar('Argentina');
   viajar('Uruguay');
+
+  function puedeManejar(edad) {
+    if(edad >= 18) {
+             console.log( true );
+    } 
+    console.log( false );
+  }
+  
+  puedeManejar(17);
