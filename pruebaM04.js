@@ -102,7 +102,8 @@ function esDiezOCinco(num) {
     // Ejemplo: 1     ---> true
     // Ejemplo: (-10) ---> true
     // De lo contrario, retorna false.
-   if ((num %2)===0) return true;
+   if (Number.isInteger(num)|| num===0) return true;
+   if (() return true;
    return false;
  }
 
