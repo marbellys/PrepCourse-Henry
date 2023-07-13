@@ -19,3 +19,6 @@ function viajar(destino) {
   }
   
   puedeManejar(17);
+
+
+  
